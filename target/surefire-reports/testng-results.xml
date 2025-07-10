@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-09T18:34:59Z" name="Amazon Test Suite" finished-at="2025-07-09T18:35:49Z" duration-ms="49712">
+    <groups>
+    </groups>
+    <test started-at="2025-07-09T18:34:59Z" name="FirefoxTest" finished-at="2025-07-09T18:35:49Z" duration-ms="49712">
+      <class name="amazonTest.AmazonSearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:amazonTest.AmazonSearchTest@4034c28c]" started-at="2025-07-09T18:34:59Z" name="setUp" finished-at="2025-07-09T18:35:01Z" duration-ms="1476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchLaptop()[pri:0, instance:amazonTest.AmazonSearchTest@4034c28c]" started-at="2025-07-09T18:35:01Z" name="searchLaptop" finished-at="2025-07-09T18:35:48Z" duration-ms="47667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLaptop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazonTest.AmazonSearchTest@4034c28c]" started-at="2025-07-09T18:35:48Z" name="tearDown" finished-at="2025-07-09T18:35:49Z" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazonTest.AmazonSearchTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Amazon Test Suite -->
+</testng-results>
